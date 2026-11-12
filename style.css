@@ -38,6 +38,42 @@ a {
     flex: 1;
 }
 
+.first {
+    display: flex;
+    justify-content: center;
+}
+
+.text {
+    width: 400px;
+}
+
+.first h2 {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.first p {
+    color: #E5E7EB;
+}
+
+button {
+    background-color: #3882F6;
+    border-radius: 25px;
+    padding: 5px 10px;
+    color: white;
+}
+
+.img-placeholder {
+    display: flex;
+    width: 400px;
+    background-color: gray;
+    justify-content: center;
+    align-items: center;
+    margin: 24px;
+    text-align: center;
+}
+
 .footer div {
     align-items: center;
     justify-content: center;
