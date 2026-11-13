@@ -80,6 +80,7 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 50px;
 }
 
 .wrapping {
@@ -102,6 +103,41 @@ button {
 
 .container p {
     width: 150px;
+}
+
+.third {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+blockquote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    font-weight: 300;
+    max-width: 800px;
+    padding: 0;
+    margin: 0;
+}
+
+.quote p {
+    padding: 0;
+    margin: 0;
+}
+
+.cite {
+    font-size: 24px;
+    font-weight: 700;
+    align-self: flex-end;
 }
 
 .footer div {
