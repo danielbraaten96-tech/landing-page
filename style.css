@@ -140,6 +140,48 @@ blockquote {
     align-self: flex-end;
 }
 
+.fourth {
+    padding: 50px;
+}
+
+.cta {
+    background-color: #3882F6;
+    border-radius: 10px;
+    display: flex;
+    width: 1000px;
+    height: 125px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    justify-content: space-evenly;
+    padding-left: 50px;
+    padding-right: 50px;
+    align-items: center;
+}
+
+.cta h2,
+.cta p {
+    padding: 0;
+    margin: 0;
+}
+
+.cta p {
+    font-weight: 300;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+}
+
+.cta button {
+    border: 2px solid white;
+    height: fit-content;
+}
+
+
 .footer div {
     align-items: center;
     justify-content: center;
